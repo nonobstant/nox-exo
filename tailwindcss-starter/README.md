@@ -1,8 +1,10 @@
 ### Install Tailwind CSS
 Install tailwindcss via npm, and create your tailwind.config.js file.  
 `Terminal`   
-```npm install -D tailwindcss```  
-```npx tailwindcss init```  
+```
+npm install -D tailwindcss 
+npx tailwindcss init
+```  
 
 ### Configure your template paths
 Add the paths to all of your template files in your tailwind.config.js file.  
