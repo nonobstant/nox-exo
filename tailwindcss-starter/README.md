@@ -1,12 +1,12 @@
 ### Install Tailwind CSS
-Install tailwindcss via npm, and create your tailwind.config.js file.
-`Terminal`
-`npm install -D tailwindcss`
-`npx tailwindcss init`
+Install tailwindcss via npm, and create your tailwind.config.js file.  
+`Terminal`   
+```npm install -D tailwindcss```  
+```npx tailwindcss init```  
 
 ### Configure your template paths
-Add the paths to all of your template files in your tailwind.config.js file.
-`tailwind.config.js`
+Add the paths to all of your template files in your tailwind.config.js file.  
+`tailwind.config.js`  
 ```
 module.exports = {
   content: ["./*.{html,js}"], // Cette ligne
@@ -18,16 +18,16 @@ module.exports = {
 ```
 
 ### Add the Tailwind directives to your CSS
-Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
-`style.css`
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.  
+`style.css`  
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 ### Start the Tailwind CLI build process
-Run the CLI tool to scan your template files for classes and build your CSS.
-`package.json`
+Run the CLI tool to scan your template files for classes and build your CSS.  
+`package.json`  
 ```
 {
   "name": "tailwindcss-starter",
@@ -45,8 +45,8 @@ Run the CLI tool to scan your template files for classes and build your CSS.
 ```
 
 ### Start using Tailwind in your HTML
-Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
-`ìndex.html`
+Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.  
+`ìndex.html`  
 ```
 <!doctype html>
 <html>
@@ -63,4 +63,4 @@ Add your compiled CSS file to the <head> and start using Tailwind’s utility cl
 </html>
 ```
 
-Source: [doc.tailwindcss](https://tailwindcss.com/docs/installation)
+Source: [doc.tailwindcss](https://tailwindcss.com/docs/installation)  
